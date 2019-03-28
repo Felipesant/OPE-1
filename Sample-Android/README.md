@@ -1,2 +1,0 @@
-# OPE
-Hair Style Solution
