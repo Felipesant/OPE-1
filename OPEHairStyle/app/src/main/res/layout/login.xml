@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/texto_inicial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Acesse sua conta!" />
+
+    <TextView
+        android:id="@+id/Usuário"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usuário" />
+
+    <EditText
+        android:id="@+id/campo_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/Senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Senha" />
+
+    <EditText
+        android:id="@+id/campo_senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="" />
+
+    <Button
+        android:id="@+id/botao_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+
+    <ImageView
+        android:id="@+id/imagem_login"
+        android:layout_width="match_parent"
+        android:layout_height="311dp" />
+</LinearLayout>
